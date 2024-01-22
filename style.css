@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff2e6;
+}
+
+.hero-banner {
+  background-image: url("./assets/magdatasiecka-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .hero-banner {
+    background-attachment: scroll;
+  }
+}
+.hero-banner .hero-banner-inner {
+  background-color: #000;
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 25px;
+}
+.hero-banner .hero-banner-inner .hero-banner-title {
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+
+.content {
+  background-color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  margin-top: -90px;
+}
+.content .content-inner {
+  padding: 50px;
+}
+.content .content-inner h2 {
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+}
+.content .content-inner p {
+  margin-top: 14px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 25px;
+}
+.content .content-contact {
+  background-color: #000;
+  padding: 50px;
+  color: #fff;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.content .content-contact .content-contact-title {
+  flex-grow: 1;
+}
+.content .content-contact .content-contact-title h2 {
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.content .content-contact .content-contact-content {
+  flex-grow: 4;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.content .content-contact .content-contact-content p {
+  padding: 0 10px;
+}
+.content .content-contact .content-contact-content p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a {
+  color: #000;
+}
+
+/*# sourceMappingURL=style.css.map */
